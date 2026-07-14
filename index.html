@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICA Asset Management | NRI Property Management & Real Estate Solutions</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Trusted, end-to-end property care, inspections, tenant management, and architectural consulting for NRIs in Canada, Dubai & India. 20+ years experience. Complete peace of mind.">
+    <meta name="keywords" content="NRI Property Management, NRI Real Estate Solutions, Punjab Property Management, Brampton Real Estate, NRI Services, Ludhiana Property Care">
+    <meta name="author" content="ICA Asset Management">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="ICA Asset Management | NRI Property Management & Real Estate Solutions">
+    <meta property="og:description" content="Professional property management for NRIs in Canada, Dubai & India. Total peace of mind while you're abroad.">
+    <meta property="og:image" content="assets/nri_services_flyer.jpg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dermix-style">
+
+    <!-- Theme Preloader -->
+    <div class="theme-preloader" id="preloader">
+        <div class="loading-container">
+            <div class="loading"></div>
+            <div id="loading-icon">
+                <img src="assets/ica_logo_cropped.jpg" alt="ICA Logo">
+            </div>
+        </div>
+    </div>
+
+    <!-- Magic Cursor -->
+    <div id="magic-cursor">
+        <div id="ball"></div>
+    </div>
+
+    <!-- Topbar -->
+    <div class="topbar">
+        <div class="container topbar-content">
+            <div class="topbar-left">
+                <p>Ready to Secure Your Assets Back Home? <a href="#contact"><strong>Consult Our Specialists Now</strong></a></p>
+            </div>
+            <div class="topbar-right">
+                <div class="topbar-links">
+                    <a href="#faq">Help</a>
+                    <a href="#about">Support</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="topbar-socials">
+                    <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#home" class="logo">
+                <img src="assets/ica_logo_cropped.jpg" alt="ICA Logo" class="logo-img">
+                <div class="logo-text">
+                    <span class="brand-title">ICA</span>
+                    <span class="brand-subtitle">Asset Management</span>
+                </div>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About Us</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#team" class="nav-link">Our Experts</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#contact" class="btn btn-gold nav-cta-btn">Book Consultation</a>
+            </nav>
+            
+            <button class="mobile-toggle" aria-label="Toggle navigation" id="mobileToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Section 1: Hero Banner (Parallax) -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg" style="background-image: url('assets/hero_bg.png');"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-container-content">
+            <div class="hero-grid-two-col">
+                <div class="hero-text-col fade-up-init">
+                    <span class="hero-badge">YOUR PROPERTY, OUR PRIORITY</span>
+                    <h1 class="hero-title">Who's Looking After Your Property Back Home?</h1>
+                    <p class="hero-subtitle">Professional property management for NRIs in Canada, Dubai & India — total peace of mind while you're settled abroad.</p>
+                    <div class="hero-ctas">
+                        <a href="#contact" class="btn btn-gold"><i class="fa-solid fa-calendar-check"></i> Free Consultation</a>
+                        <div class="hero-video-inline-trigger" id="playVideoBtn">
+                            <button class="btn-video-play glow-ripple" aria-label="Play Explainer Video"><i class="fa-solid fa-play"></i></button>
+                            <span class="video-label">Watch Our Story</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-featured-image-col fade-up-init">
+                    <!-- Dermix layout features doctor banner portrait -->
+                    <div class="hero-featured-portrait-wrapper">
+                        <img src="assets/paul_singh_flyer.jpg" alt="ICA Property Expert - Paul Singh" class="hero-featured-portrait">
+                        <div class="floating-trust-badge">
+                            <i class="fa-solid fa-award"></i>
+                            <span>NRI Vetted &<br>Trusted Care</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- YouTube Video Modal -->
+    <div class="video-modal-overlay" id="videoModal">
+        <div class="video-modal-container">
+            <button class="video-modal-close" id="closeVideoBtn" aria-label="Close Video"><i class="fa-solid fa-xmark"></i></button>
+            <div class="video-iframe-container">
+                <iframe id="videoIframe" src="" title="ICA Asset Management Explainer Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 2: About Us -->
+    <section id="about" class="about-section bg-cream section-padding">
+        <div class="container">
+            <div class="about-grid-two-col">
+                <!-- Left Collage Column (Dermix style) -->
+                <div class="about-collage-col fade-up-init">
+                    <div class="collage-wrapper">
+                        <div class="collage-dot-pattern"></div>
+                        <!-- Main large image (right-aligned) -->
+                        <div class="collage-img-box img-main">
+                            <img src="assets/nri_services_flyer.jpg" alt="ICA Property Services Overview">
+                        </div>
+                        <!-- Secondary overlapping image (left-aligned) -->
+                        <div class="collage-img-box img-sub">
+                            <img src="assets/hero_bg.png" alt="Aspirational Property Under Care">
+                        </div>
+                        <div class="collage-floating-badge">
+                            <span class="badge-num">35+</span>
+                            <span class="badge-txt">Years of<br>Expertise</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Content Column -->
+                <div class="about-content-col fade-up-init">
+                    <span class="section-subtitle">ABOUT US</span>
+                    <h2 class="section-title">Professional Property Management & Architectural Care You Trust</h2>
+                    <div class="title-divider-left"></div>
+                    <p class="about-desc">Whether you are overseas for work or with family, we ensure your property remains secure, maintained, and professionally managed.</p>
+                    <p class="about-sub-desc">ICA Asset Management provides trusted, end-to-end property care, regular inspections, and tenant management for NRIs — with complete transparency and total peace of mind.</p>
+                    
+                    <div class="about-info-boxes-stack">
+                        <div class="about-info-box">
+                            <div class="info-box-icon"><i class="fa-solid fa-house-shield"></i></div>
+                            <div class="info-box-text">
+                                <h3>Personalized Property Care</h3>
+                                <p>We care for your property like our own, coordinating routine upkeep, structural audits, and emergency maintenance.</p>
+                            </div>
+                        </div>
+                        <div class="about-info-box">
+                            <div class="info-box-icon"><i class="fa-solid fa-users-gear"></i></div>
+                            <div class="info-box-text">
+                                <h3>Trusted Tenant Management</h3>
+                                <p>Finding vetted tenants, executing solid agreements, rent collection, and regular visits with video updates.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-footer-row">
+                        <a href="#services" class="btn btn-gold">Explore Our Services <i class="fa-solid fa-arrow-right"></i></a>
+                        <div class="founder-signature-box">
+                            <span class="sig-name">Er. A.S. Chawla</span>
+                            <span class="sig-title">Principal Architect & Founder</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Leadership Bio (Dermix Arched Text circular Layout copy) -->
+    <section id="experts-bio" class="experts-bio-section bg-white section-padding">
+        <div class="container">
+            <div class="bio-grid-two-col">
+                <!-- Left Side: Circular Avatar with Rotating SVG Arched Text -->
+                <div class="bio-svg-col fade-up-init">
+                    <div class="bio-text-widget-wrapper">
+                        <div class="bio-central-circle-img-box">
+                            <img src="assets/specialist_demo.png" alt="ICA Specialists Mockup">
+                        </div>
+                        <!-- Rotating Text Path -->
+                        <div class="bio-rotating-svg-container">
+                            <svg viewBox="0 0 100 100" width="100%" height="100%">
+                                <defs>
+                                    <path id="bioTextPath" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" />
+                                </defs>
+                                <text fill="var(--primary-gold)" font-size="4.5" font-weight="800" letter-spacing="1.2">
+                                    <textPath href="#bioTextPath" startOffset="0%">
+                                        ARCHITECT • VALUER • REALTOR • PROPERTY EXPERT •
+                                    </textPath>
+                                </text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Side: Header and Stacked Bio Lists -->
+                <div class="bio-content-col fade-up-init">
+                    <span class="section-subtitle">Leadership Bio</span>
+                    <h2 class="section-title">Decades of Transnational Architectural & Real Estate Expertise</h2>
+                    <div class="title-divider-left"></div>
+                    
+                    <div class="bio-items-stack">
+                        <!-- Item 1: Er. Chawla -->
+                        <div class="bio-item-row">
+                            <div class="bio-item-avatar">
+                                <img src="assets/amarjit_chawla.jpg" alt="Er. Amarjit Singh Chawla">
+                            </div>
+                            <div class="bio-item-text">
+                                <h3>Er. Amarjit Singh Chawla <span class="bio-role">| Principal Architect & Valuer</span></h3>
+                                <p>35+ Years of vast experience in architectural design, building valuations, real estate consulting, and government-approved appraisals in Punjab and abroad. Former Regional Owner – RE/MAX Property Consultants (2011–2016).</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Item 2: Paul Singh -->
+                        <div class="bio-item-row">
+                            <div class="bio-item-avatar">
+                                <img src="assets/paul_singh.jpg" alt="Paul Singh">
+                            </div>
+                            <div class="bio-item-text">
+                                <h3>Paul Singh <span class="bio-role">| Transnational Realtor & Property Expert</span></h3>
+                                <p>Serving the NRI community as an active REALTOR® since 2012 with RE/MAX Gold Realty, Brampton. International property specialist with business experience in Dubai (2006–2009) and extensive real estate solutions across India, Canada & Dubai.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Item 3: Ground Coordination -->
+                        <div class="bio-item-row">
+                            <div class="bio-item-avatar">
+                                <img src="assets/ica_logo_cropped.jpg" alt="ICA Logo">
+                            </div>
+                            <div class="bio-item-text">
+                                <h3>Ludhiana & Brampton Ground Teams <span class="bio-role">| Local Property Coordinators</span></h3>
+                                <p>Our local coordinators on the ground in Punjab (Ludhiana) and Canada (Brampton) ensure regular security audits, coordination of emergency repairs, legal paperwork, and tenant placements are managed with complete transparency.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Our Services (Replicated Dermix Layout with image card) -->
+    <section id="services" class="services-section section-padding">
+        <div class="container">
+            <div class="section-header text-center fade-up-init">
+                <span class="section-subtitle">OUR SERVICES</span>
+                <h2 class="section-title">Comprehensive Property Care & Asset Management Offered</h2>
+                <div class="title-divider"></div>
+                <p class="section-desc">Tailored property care solutions designed to safeguard your Indian investments from anywhere in the world.</p>
+            </div>
+            
+            <div class="services-grid-wrapper-dermix">
+                <!-- Column 1: Services 1 & 2 -->
+                <div class="services-col">
+                    <div class="service-card-dermix fade-up-init">
+                        <div class="card-icon-box"><i class="fa-solid fa-city"></i></div>
+                        <h3>Property Management</h3>
+                        <p>End-to-end management of all property types, including commercial spaces, residential apartments, and rural farmhouses.</p>
+                        <a href="#contact" class="card-arrow-link">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="service-card-dermix fade-up-init">
+                        <div class="card-icon-box"><i class="fa-solid fa-handshake"></i></div>
+                        <h3>Buying & Selling</h3>
+                        <p>Full assistance in buying and selling properties, matching genuine buyers/sellers with complete legal transparency.</p>
+                        <a href="#contact" class="card-arrow-link">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Column 2: Services 3 & 4 -->
+                <div class="services-col">
+                    <div class="service-card-dermix fade-up-init">
+                        <div class="card-icon-box"><i class="fa-solid fa-scale-balanced"></i></div>
+                        <h3>Legal Services</h3>
+                        <p>Expert legal support, resolving dispute mitigation, inheritance paperwork, and hassle-free property matters.</p>
+                        <a href="#contact" class="card-arrow-link">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="service-card-dermix fade-up-init">
+                        <div class="card-icon-box"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+                        <h3>Property Valuation</h3>
+                        <p>Accurate valuation by certified government valuers and appraisers for selling, tax, or mortgage purposes.</p>
+                        <a href="#contact" class="card-arrow-link">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Column 3: Featured Poster Card (Dermix style image card) -->
+                <div class="services-col featured-poster-col fade-up-init">
+                    <div class="services-featured-poster-card" style="background-image: url('assets/hero_bg.png');">
+                        <div class="poster-overlay"></div>
+                        <div class="poster-content">
+                            <span class="poster-tag">EXPERTISE</span>
+                            <h3>Need Professional Valuation & Architectural Advice?</h3>
+                            <p>Speak directly to Er. Chawla, our principal architect with 35+ years of real estate consulting experience.</p>
+                            <a href="#contact" class="btn btn-gold">Schedule Valuation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second row of Services (Grid Card) -->
+            <div class="services-grid-wrapper-dermix second-row-grid">
+                <div class="service-card-dermix fade-up-init">
+                    <div class="card-icon-box"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    <h3>Maintenance & Upgradation</h3>
+                    <p>Routine repairs, complete renovations, and modern upgradation to elevate your property's value and visual appeal.</p>
+                    <a href="#contact" class="card-arrow-link">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+                <div class="service-card-dermix fade-up-init">
+                    <div class="card-icon-box"><i class="fa-solid fa-users"></i></div>
+                    <h3>Tenant Management</h3>
+                    <p>Finding vetted tenants, executing robust legal agreements, managing move-ins, and resolving tenant disputes.</p>
+                    <a href="#contact" class="card-arrow-link">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+                <div class="service-card-dermix fade-up-init">
+                    <div class="card-icon-box"><i class="fa-solid fa-wallet"></i></div>
+                    <h3>Rent Collection</h3>
+                    <p>Timely rental collection, direct digital transfers to your account, and clean financial reports for tax purposes.</p>
+                    <a href="#contact" class="card-arrow-link">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+                <div class="service-card-dermix fade-up-init">
+                    <div class="card-icon-box"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Property Protection</h3>
+                    <p>Strict boundary checks, structural security audits, and proactive measures to prevent illegal occupancy.</p>
+                    <a href="#contact" class="card-arrow-link">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Why Choose Us (Dermix Curved Image Layout + Stats stack) -->
+    <section id="why-choose-us" class="why-choose-us-section bg-cream section-padding">
+        <div class="container">
+            <div class="why-choose-grid-three-col">
+                <!-- Column 1: Content details -->
+                <div class="why-choose-content-col fade-up-init">
+                    <span class="section-subtitle">WHY CHOOSE US</span>
+                    <h2 class="section-title">Delivering Trusted Results For NRI Real Estate</h2>
+                    <div class="title-divider-left"></div>
+                    <p class="why-choose-desc">We bridge the gap of distance for overseas Indians. Our ground team ensures your Indian real estate remains safe, legally compliant, and high-yielding.</p>
+                    
+                    <ul class="why-choose-checklist">
+                        <li><i class="fa-solid fa-circle-check text-gold"></i> Transnational Coordination (Canada & India offices)</li>
+                        <li><i class="fa-solid fa-circle-check text-gold"></i> Government Valuer and Architectural Expertise</li>
+                        <li><i class="fa-solid fa-circle-check text-gold"></i> 100% Transparent Digital Video Inspection Logs</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-gold">Contact Us Now</a>
+                </div>
+                
+                <!-- Column 2: Curved Tall Portrait (Dermix style) -->
+                <div class="why-choose-image-col fade-up-init">
+                    <div class="curved-portrait-wrapper">
+                        <img src="assets/amarjit_chawla_flyer.jpg" alt="ICA Property Consultant Er. Amarjit Singh Chawla">
+                        <div class="curved-overlay"></div>
+                    </div>
+                </div>
+                
+                <!-- Column 3: Stats Stack boxes (Dermix style) -->
+                <div class="why-choose-stats-col fade-up-init">
+                    <div class="stats-box-vertical-stack">
+                        <!-- Stat Box 1 -->
+                        <div class="stat-box-card">
+                            <span class="stat-box-number" data-target="20">0</span><span class="stat-box-plus">+</span>
+                            <span class="stat-box-label">Years of Property Care Experience</span>
+                        </div>
+                        <!-- Stat Box 2 -->
+                        <div class="stat-box-card">
+                            <span class="stat-box-number" data-target="35">0</span><span class="stat-box-plus">+</span>
+                            <span class="stat-box-label">Years of Architectural & Appraisal Expertise</span>
+                        </div>
+                        <!-- Stat Box 3 -->
+                        <div class="stat-box-card">
+                            <span class="stat-box-number" data-target="100">0</span><span class="stat-box-plus">%</span>
+                            <span class="stat-box-label">Security & Legal Compliance Records</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Core Features Circular Layout (Dermix Dark Green Layout) -->
+    <section class="core-features-section bg-navy text-white section-padding">
+        <div class="container">
+            <div class="section-header text-center fade-up-init">
+                <span class="section-subtitle">CORE SYSTEM</span>
+                <h2 class="section-title text-white">Our Signature Protection Shield</h2>
+                <div class="title-divider"></div>
+                <p class="section-desc">How we maintain continuous property care, tenant vetting, and structural upkeep for overseas NRIs.</p>
+            </div>
+            
+            <div class="core-features-circular-grid">
+                <!-- Left Point Features -->
+                <div class="features-side-col left-side">
+                    <!-- Point 1 -->
+                    <div class="circular-feature-point fade-up-init">
+                        <div class="point-text text-right">
+                            <h3>Regular Inspections</h3>
+                            <p>Scheduled physical audits with photo/video checkups shared directly on WhatsApp.</p>
+                        </div>
+                        <div class="point-icon-box"><i class="fa-solid fa-clipboard-check"></i></div>
+                    </div>
+                    <!-- Point 2 -->
+                    <div class="circular-feature-point fade-up-init">
+                        <div class="point-text text-right">
+                            <h3>Tenant Background Checks</h3>
+                            <p>Exhaustive ID verification and legally drafted registered lease agreements.</p>
+                        </div>
+                        <div class="point-icon-box"><i class="fa-solid fa-users-rectangle"></i></div>
+                    </div>
+                </div>
+                
+                <!-- Center Portrait Circle (Dermix style) -->
+                <div class="features-center-circle-col fade-up-init">
+                    <div class="features-circle-image-wrapper">
+                        <img src="assets/ica_logo_cropped.jpg" alt="ICA Logo badge" class="features-center-logo">
+                        <div class="circle-rotating-border"></div>
+                    </div>
+                </div>
+                
+                <!-- Right Point Features -->
+                <div class="features-side-col right-side">
+                    <!-- Point 3 -->
+                    <div class="circular-feature-point fade-up-init">
+                        <div class="point-icon-box"><i class="fa-solid fa-shield-halved"></i></div>
+                        <div class="point-text text-left">
+                            <h3>Boundary Protection</h3>
+                            <p>Proactive boundary checkups, security locking, and structural threat monitoring.</p>
+                        </div>
+                    </div>
+                    <!-- Point 4 -->
+                    <div class="circular-feature-point fade-up-init">
+                        <div class="point-icon-box"><i class="fa-solid fa-scale-balanced"></i></div>
+                        <div class="point-text text-left">
+                            <h3>Legal Liaison</h3>
+                            <p>Handling tax filing, title verification, mutation updates, and inheritance issues.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Latest Portfolio / Flyers showcase (Dermix Case Study layout) -->
+    <section class="case-studies-section section-padding">
+        <div class="container">
+            <div class="section-header text-center fade-up-init">
+                <span class="section-subtitle">OUR WORKS</span>
+                <h2 class="section-title">Transnational Property Consultation Portfolios</h2>
+                <div class="title-divider"></div>
+                <p class="section-desc">Download and view our original flyers for detailed services, developer credentials, and founder portfolios.</p>
+            </div>
+            
+            <div class="case-studies-grid-wrapper">
+                <!-- Flyer Case 1 -->
+                <div class="case-study-card fade-up-init">
+                    <div class="case-image-wrapper">
+                        <img src="assets/paul_singh_flyer.jpg" alt="Paul Singh Portfolio Flyer">
+                        <div class="case-hover-overlay">
+                            <div class="case-overlay-content">
+                                <span class="case-tag">REAL ESTATE</span>
+                                <h3>Paul Singh Portfolio</h3>
+                                <a href="assets/paul_singh_flyer.jpg" target="_blank" class="btn btn-gold btn-round-icon"><i class="fa-solid fa-expand"></i> View Flyer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Flyer Case 2 -->
+                <div class="case-study-card fade-up-init">
+                    <div class="case-image-wrapper">
+                        <img src="assets/nri_services_flyer.jpg" alt="NRI Property Services Flyer">
+                        <div class="case-hover-overlay">
+                            <div class="case-overlay-content">
+                                <span class="case-tag">NRI CARE</span>
+                                <h3>Overview Services</h3>
+                                <a href="assets/nri_services_flyer.jpg" target="_blank" class="btn btn-gold btn-round-icon"><i class="fa-solid fa-expand"></i> View Flyer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Flyer Case 3 -->
+                <div class="case-study-card fade-up-init">
+                    <div class="case-image-wrapper">
+                        <img src="assets/amarjit_chawla_flyer.jpg" alt="Er. Amarjit Chawla Architecture Flyer">
+                        <div class="case-hover-overlay">
+                            <div class="case-overlay-content">
+                                <span class="case-tag">VALUATION & ARCHITECTURE</span>
+                                <h3>Er. Amarjit Chawla Portfolio</h3>
+                                <a href="assets/amarjit_chawla_flyer.jpg" target="_blank" class="btn btn-gold btn-round-icon"><i class="fa-solid fa-expand"></i> View Flyer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 7: Rotating SVG text circle & Experts (Dermix Circular Text layout) -->
+    <section class="expert-circular-text-section bg-cream section-padding">
+        <div class="container">
+            <div class="circular-text-grid-two-col">
+                <!-- Left column: Rotating SVG around circular image -->
+                <div class="circular-svg-col fade-up-init">
+                    <div class="circular-text-widget-wrapper">
+                        <!-- Curved central portrait -->
+                        <div class="central-circle-img-box">
+                            <img src="assets/paul_singh.jpg" alt="Paul Singh headshot">
+                        </div>
+                        <!-- SVG Rotating Text -->
+                        <div class="rotating-svg-container">
+                            <svg viewBox="0 0 100 100" width="100%" height="100%">
+                                <defs>
+                                    <path id="textCirclePath" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" />
+                                </defs>
+                                <text fill="var(--primary-gold)" font-size="5" font-weight="700" letter-spacing="1.5">
+                                    <textPath href="#textCirclePath" startOffset="0%">
+                                        ICA ASSET MANAGEMENT • NRI PROPERTY CARE • TRUSTED ADVISORS • 
+                                    </textPath>
+                                </text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right column: Text credentials -->
+                <div class="circular-text-info-col fade-up-init">
+                    <span class="section-subtitle">VERIFIED ADVISORS</span>
+                    <h2 class="section-title">Active Transnational Presence In Canada & Punjab</h2>
+                    <div class="title-divider-left"></div>
+                    <p class="lead-info-text">With physical ground teams based in Ludhiana, Punjab and Brampton, Ontario, we ensure you never have to fly back to resolve real estate tasks.</p>
+                    
+                    <div class="expert-quick-card">
+                        <div class="expert-quick-card-header">
+                            <img src="assets/amarjit_chawla.jpg" alt="Er. Amarjit Singh Chawla Avatar" class="quick-avatar">
+                            <div>
+                                <h4>Er. Amarjit Singh Chawla</h4>
+                                <span>Principal Architect & valuer</span>
+                            </div>
+                        </div>
+                        <p class="quick-card-body">"Our engineering, appraisal, and architectural design background ensures structural security checkups are conducted with professional audits, not basic sight-seeing."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 8: Meet Our Experts (Dermix Doctor Card Layout) -->
+    <section id="team" class="team-section section-padding">
+        <div class="container">
+            <div class="section-header text-center fade-up-init">
+                <span class="section-subtitle">OUR TEAM</span>
+                <h2 class="section-title">Dedicated Experts Managing Your Properties</h2>
+                <div class="title-divider"></div>
+                <p class="section-desc">Highly qualified real estate, legal, and architectural professionals committed to safeguarding your assets.</p>
+            </div>
+            
+            <div class="team-grid-wrapper">
+                <!-- Expert 1 -->
+                <div class="expert-card-dermix fade-up-init">
+                    <div class="expert-image-wrapper">
+                        <img src="assets/amarjit_chawla.jpg" alt="Er. Amarjit Singh Chawla">
+                        <div class="expert-social-drawer">
+                            <a href="https://wa.me/919814023713" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="mailto:icaasset@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                            <a href="assets/amarjit_chawla_flyer.jpg" target="_blank" aria-label="Profile Flyer" class="profile-flyer-icon-btn"><i class="fa-solid fa-expand"></i></a>
+                        </div>
+                    </div>
+                    <div class="expert-info-box">
+                        <span class="expert-role">Principal Architect | Consultant | Valuer</span>
+                        <h3>Er. Amarjit Singh Chawla</h3>
+                        <p class="expert-tagline">35+ Years of Vast Experience in Architecture & Real Estate</p>
+                        <div class="expert-card-divider"></div>
+                        <ul class="expert-bullets">
+                            <li><i class="fa-solid fa-check text-gold"></i> Former Regional Owner – RE/MAX Consultants</li>
+                            <li><i class="fa-solid fa-check text-gold"></i> Government Certified Valuer & Planner</li>
+                            <li><i class="fa-solid fa-check text-gold"></i> Expert in Structural Audits & Legal Liaison</li>
+                        </ul>
+                        <div class="expert-card-ctas">
+                            <a href="tel:+16477453713" class="btn-card-small"><i class="fa-solid fa-phone"></i> Call Canada</a>
+                            <a href="https://wa.me/919814023713" target="_blank" class="btn-card-small btn-card-wa"><i class="fa-brands fa-whatsapp"></i> Chat WhatsApp</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Expert 2 -->
+                <div class="expert-card-dermix fade-up-init">
+                    <div class="expert-image-wrapper">
+                        <img src="assets/paul_singh.jpg" alt="Paul Singh">
+                        <div class="expert-social-drawer">
+                            <a href="https://wa.me/919814023713" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="mailto:icaasset@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                            <a href="assets/paul_singh_flyer.jpg" target="_blank" aria-label="Profile Flyer" class="profile-flyer-icon-btn"><i class="fa-solid fa-expand"></i></a>
+                        </div>
+                    </div>
+                    <div class="expert-info-box">
+                        <span class="expert-role">Realtor | Property Expert</span>
+                        <h3>Paul Singh</h3>
+                        <p class="expert-tagline">Trusted Transnational Real Estate Specialist</p>
+                        <div class="expert-card-divider"></div>
+                        <ul class="expert-bullets">
+                            <li><i class="fa-solid fa-check text-gold"></i> Serving the community as REALTOR® since 2012</li>
+                            <li><i class="fa-solid fa-check text-gold"></i> Currently with RE/MAX Gold Realty, Brampton</li>
+                            <li><i class="fa-solid fa-check text-gold"></i> Business Experience in Dubai & India Portfolios</li>
+                        </ul>
+                        <div class="expert-card-ctas">
+                            <a href="tel:+14164189785" class="btn-card-small"><i class="fa-solid fa-phone"></i> Call Canada</a>
+                            <a href="https://wa.me/919814023713" target="_blank" class="btn-card-small btn-card-wa"><i class="fa-brands fa-whatsapp"></i> Chat WhatsApp</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 9: Pricing Plans (Dermix Pricing card Layout) -->
+    <section class="pricing-plans-section bg-cream section-padding">
+        <div class="container">
+            <div class="section-header text-center fade-up-init">
+                <span class="section-subtitle">PRICING PACKAGES</span>
+                <h2 class="section-title">Affordable Custom Asset Protection Portfolios</h2>
+                <div class="title-divider"></div>
+                <p class="section-desc">Choose a customized service plan tailored to protect, evaluate, and manage your specific property assets.</p>
+            </div>
+            
+            <div class="pricing-grid-three-col">
+                <!-- Plan 1 -->
+                <div class="pricing-card fade-up-init">
+                    <div class="pricing-header">
+                        <span class="plan-badge">BASIC CARE</span>
+                        <div class="price-box">
+                            <span class="price-val">₹ 4,999</span>
+                            <span class="price-period">/ Month</span>
+                        </div>
+                        <p class="plan-target">Ideal for vacant apartments or small plots needing security audits.</p>
+                    </div>
+                    <div class="pricing-divider"></div>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-circle-check text-gold"></i> Monthly physical checkup audits</li>
+                        <li><i class="fa-solid fa-circle-check text-gold"></i> Photo/Video check reports</li>
+                        <li><i class="fa-solid fa-circle-check text-gold"></i> Boundary wall checkups</li>
+                        <li><i class="fa-solid fa-circle-check text-gold"></i> Direct WhatsApp coordinator</li>
+                        <li class="disabled"><i class="fa-solid fa-circle-xmark"></i> Tenant management & rent collection</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline-navy">Book Package</a>
+                </div>
+
+                <!-- Plan 2 (Highlighted) -->
+                <div class="pricing-card featured-plan fade-up-init">
+                    <div class="pricing-header">
+                        <span class="plan-badge badge-featured">PREMIUM CARE</span>
+                        <div class="price-box">
+                            <span class="price-val text-white">₹ 9,999</span>
+                            <span class="price-period text-white">/ Month</span>
+                        </div>
+                        <p class="plan-target text-white">Ideal for rented residential homes or commercial showrooms.</p>
+                    </div>
+                    <div class="pricing-divider"></div>
+                    <ul class="pricing-features text-white">
+                        <li><i class="fa-solid fa-circle-check text-gold"></i> Fortnightly physical checkup audits</li>
+                        <li><i class="fa-solid fa-circle-check text-gold"></i> Complete tenant search & verification</li>
+                        <li><i class="fa-solid fa-circle-check text-gold"></i> Registered lease documentation</li>
+                        <li><i class="fa-solid fa-circle-check text-gold"></i> Rent collection & accounting sheets</li>
+                        <li><i class="fa-solid fa-circle-check text-gold"></i> Complete emergency repairs & plumbing</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-gold">Book Package</a>
+                </div>
+
+                <!-- Plan 3 -->
+                <div class="pricing-card fade-up-init">
+                    <div class="pricing-header">
+                        <span class="plan-badge">COMMERCIAL PORTFOLIO</span>
+                        <div class="price-box">
+                            <span class="price-val">₹ 19,999</span>
+                            <span class="price-period">/ Month</span>
+                        </div>
+                        <p class="plan-target">Ideal for large factories, shopping complexes, or rural farmhouses.</p>
+                    </div>
+                    <div class="pricing-divider"></div>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-circle-check text-gold"></i> Weekly physical checkup audits</li>
+                        <li><i class="fa-solid fa-circle-check text-gold"></i> Boundary threat prevention liaison</li>
+                        <li><i class="fa-solid fa-circle-check text-gold"></i> Government valuation & appraisal updates</li>
+                        <li><i class="fa-solid fa-circle-check text-gold"></i> Custom tax filing & legal representation</li>
+                        <li><i class="fa-solid fa-circle-check text-gold"></i> Unlimited emergency repair coordination</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline-navy">Book Package</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 10: FAQ Accordion with Image (Dermix style) -->
+    <section id="faq" class="faq-section-wrapper bg-white section-padding">
+        <div class="container">
+            <div class="faq-grid-two-col">
+                <!-- Left Side: Image collage -->
+                <div class="faq-image-col fade-up-init">
+                    <div class="faq-curved-img-wrapper">
+                        <img src="assets/paul_singh_flyer.jpg" alt="ICA NRI Property Care Explainer FAQ image">
+                        <div class="faq-badge-floating">
+                            <i class="fa-solid fa-circle-question fa-2x"></i>
+                            <span>Quick answers<br>to your doubts</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Side: Accordion -->
+                <div class="faq-accordion-col fade-up-init">
+                    <span class="section-subtitle">FAQ</span>
+                    <h2 class="section-title">Answers to Your Property Management Concerns</h2>
+                    <div class="title-divider-left"></div>
+                    
+                    <div class="faq-accordion-container">
+                        <!-- FAQ Item 1 -->
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>Can I manage my property in India without flying back?</span>
+                                <i class="fa-solid fa-plus faq-toggle-icon"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Yes, absolutely. ICA Asset Management acts as your local legal representative on the ground. We manage tenant searches, property repairs, rent collection, tax filing coordinates, and regular security checkups. You receive all updates, contracts, and video inspection logs via our digital dashboard and WhatsApp, ensuring full control from abroad.</p>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 2 -->
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>How do I get regular updates on my property's condition?</span>
+                                <i class="fa-solid fa-plus faq-toggle-icon"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>We execute scheduled physical inspections. During these audits, our representatives create high-resolution photographic and video documentation of all rooms, structures, boundaries, and utility connections. These media files and an inspection checklist report are compiled and sent directly to you via WhatsApp or email.</p>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 3 -->
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>What areas / cities do you cover?</span>
+                                <i class="fa-solid fa-plus faq-toggle-icon"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>We actively manage properties across major cities in Punjab, India (headquartered in Ludhiana, covering Jalandhar, Amritsar, Patiala, and surrounding areas). For our Canadian NRI clients, we have a corporate service office in Brampton, Ontario, where you can meet us in person to execute legal paperwork and discuss your portfolio.</p>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 4 -->
+                        <button class="faq-question">
+                            <span>How do you handle tenant issues and rent collection?</span>
+                            <i class="fa-solid fa-plus faq-toggle-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We perform exhaustive background checks, verify identities via Government IDs, and draft robust rental agreements registered locally. Rent is collected digitally on a set date each month and transferred directly to your designated bank account. If maintenance issues or disputes arise, our local team coordinates repairs and resolves conflicts swiftly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 11: Testimonials (Dermix Card Layout) -->
+    <section id="testimonials" class="testimonials-section bg-cream section-padding">
+        <div class="container">
+            <div class="section-header text-center fade-up-init">
+                <span class="section-subtitle">TESTIMONIALS</span>
+                <h2 class="section-title">What Our Global NRI Clients Say</h2>
+                <div class="title-divider"></div>
+                <p class="section-desc">Read reviews from NRI families who rely on ICA to protect their real estate portfolios in India.</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-up-init">
+                    <div class="testimonial-stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Managing my commercial building in Ludhiana was a nightmare from Canada until I found ICA. Er. Chawla's engineering background means that repairs are done right. Their team conducts regular inspections and sends me video updates. The peace of mind is priceless!"</p>
+                    <div class="testimonial-user">
+                        <div class="user-avatar-placeholder">JS</div>
+                        <div class="user-info">
+                            <h4>Jaspreet S.</h4>
+                            <span>Vancouver, Canada (Commercial Owner)</span>
+                        </div>
+                    </div>
+                    <div class="quote-watermark"><i class="fa-solid fa-quote-right"></i></div>
+                </div>
+
+                <div class="testimonial-card fade-up-init">
+                    <div class="testimonial-stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"We wanted to sell our residential property in Jalandhar. Er. Chawla provided a detailed government valuation and Paul guided us through the entire transaction from Canada. They handled everything transparently without requiring us to fly back."</p>
+                    <div class="testimonial-user">
+                        <div class="user-avatar-placeholder">HK</div>
+                        <div class="user-info">
+                            <h4>Harbhajan K.</h4>
+                            <span>Brampton, Canada (Residential Seller)</span>
+                        </div>
+                    </div>
+                    <div class="quote-watermark"><i class="fa-solid fa-quote-right"></i></div>
+                </div>
+
+                <div class="testimonial-card fade-up-init">
+                    <div class="testimonial-stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Their tenant management is exceptional. Vetting tenants, drafting legal agreements, rent collection, and repairs are all managed perfectly. I receive the rent on time directly to my NRE account, with detailed statements every quarter."</p>
+                    <div class="testimonial-user">
+                        <div class="user-avatar-placeholder">AD</div>
+                        <div class="user-info">
+                            <h4>Amit D.</h4>
+                            <span>Dubai, UAE (Apartment Owner)</span>
+                        </div>
+                    </div>
+                    <div class="quote-watermark"><i class="fa-solid fa-quote-right"></i></div>
+                </div>
+            </div>
+            
+            <div class="sample-notice text-center fade-up-init">
+                <p><i class="fa-solid fa-circle-info text-gold"></i> Note: The above reviews are representative samples of client success stories. Contact us to speak to references in your area.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 12: Latest Blog Articles (Dermix News layout) -->
+    <section class="latest-news-section bg-white section-padding">
+        <div class="container">
+            <div class="section-header text-center fade-up-init">
+                <span class="section-subtitle">LATEST NEWS</span>
+                <h2 class="section-title">Latest Articles & Real Estate Guides</h2>
+                <div class="title-divider"></div>
+                <p class="section-desc">Stay informed with the latest updates on Indian property tax laws, legal issues, mutation updates, and market trends.</p>
+            </div>
+            
+            <div class="latest-news-grid">
+                <!-- Article 1 -->
+                <div class="news-card fade-up-init">
+                    <div class="news-img-wrapper">
+                        <img src="assets/hero_bg.png" alt="Indian Property mutation illustration">
+                        <span class="news-date">April 12, 2026</span>
+                    </div>
+                    <div class="news-info">
+                        <h4>Understanding Property Mutation Laws in Punjab for NRIs</h4>
+                        <p>Mutation (Dakhil-Kharij) is crucial to register land ownership. Learn about legal timelines and necessary remote paperwork checkups...</p>
+                        <a href="#contact" class="news-read-more">Read Full Guide <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+                <!-- Article 2 -->
+                <div class="news-card fade-up-init">
+                    <div class="news-img-wrapper">
+                        <img src="assets/nri_services_flyer.jpg" alt="NRI Rental agreement draft illustration">
+                        <span class="news-date">May 20, 2026</span>
+                    </div>
+                    <div class="news-info">
+                        <h4>How to Draft Registered Rental Agreements Remotely</h4>
+                        <p>Protect your showroom or villa from illegal occupant threats. Our checklist outlines important clauses on eviction, deposit, and verification...</p>
+                        <a href="#contact" class="news-read-more">Read Full Guide <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+                <!-- Article 3 -->
+                <div class="news-card fade-up-init">
+                    <div class="news-img-wrapper">
+                        <img src="assets/paul_singh_flyer.jpg" alt="Tax on property transaction NRI illustration">
+                        <span class="news-date">June 08, 2026</span>
+                    </div>
+                    <div class="news-info">
+                        <h4>Guide to Lower Tax Deduction Certificates (TDS) for NRIs</h4>
+                        <p>NRIs selling property in India face heavy TDS. Learn how applying for a certificate can save up to 20% of transaction values...</p>
+                        <a href="#contact" class="news-read-more">Read Full Guide <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 13: Book Appointment / Contact (Dermix Dark Green Layout) -->
+    <section id="contact" class="contact-section section-padding bg-navy text-white">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Info Column -->
+                <div class="contact-info-col fade-up-init">
+                    <span class="contact-badge">GET IN TOUCH</span>
+                    <h2 class="contact-title text-gold">Let's Protect Your Property While You're Abroad.</h2>
+                    <p class="contact-desc">Reach out today for a free architectural consultation, property evaluation proposal, or management quote. Our experts are standing by to assist you.</p>
+                    
+                    <div class="office-cards-stack">
+                        <div class="office-card">
+                            <div class="office-card-header">
+                                <span class="country-flag"><i class="fa-solid fa-location-dot text-gold"></i></span>
+                                <h4>India Office (Punjab)</h4>
+                            </div>
+                            <p class="address-text">S.C.O 29 Firozgandhi Market, Ludhiana, Punjab</p>
+                            <div class="contact-numbers">
+                                <a href="tel:+911614628450"><i class="fa-solid fa-phone"></i> +91-161-4628450</a>
+                                <a href="https://wa.me/919814023713" target="_blank"><i class="fa-brands fa-whatsapp text-success"></i> WhatsApp: +91 98140-23713</a>
+                            </div>
+                        </div>
+
+                        <div class="office-card">
+                            <div class="office-card-header">
+                                <span class="country-flag"><i class="fa-solid fa-location-dot text-gold"></i></span>
+                                <h4>Canada Office (Ontario)</h4>
+                            </div>
+                            <p class="address-text">2720 North Park Dr, Brampton, ON L6S 0E9, Canada</p>
+                            <div class="contact-numbers">
+                                <a href="tel:+16477453713"><i class="fa-solid fa-phone"></i> +1 647-745-3713</a>
+                                <a href="tel:+14164189785"><i class="fa-solid fa-phone"></i> +1 416-418-9785</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="general-email-link">
+                        <i class="fa-solid fa-envelope text-gold"></i>
+                        <span>Email: <a href="mailto:icaasset@gmail.com" class="text-white">icaasset@gmail.com</a></span>
+                    </div>
+                </div>
+
+                <!-- Contact Form Column -->
+                <div class="contact-form-col fade-up-init">
+                    <form class="contact-form" id="consultationForm">
+                        <h3 class="form-title">Request a Free Consultation</h3>
+                        
+                        <div class="form-group">
+                            <label for="formName">Your Full Name <span class="required">*</span></label>
+                            <input type="text" id="formName" name="name" placeholder="John Doe" required>
+                        </div>
+                        
+                        <div class="form-row-2">
+                            <div class="form-group">
+                                <label for="formEmail">Email Address <span class="required">*</span></label>
+                                <input type="email" id="formEmail" name="email" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="formPhone">Phone Number <span class="required">*</span></label>
+                                <input type="tel" id="formPhone" name="phone" placeholder="+1 (647) 000-0000" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="formLocation">Where is your property located? <span class="required">*</span></label>
+                            <select id="formLocation" name="location" required>
+                                <option value="" disabled selected>Select Location</option>
+                                <option value="India">Punjab / India</option>
+                                <option value="Canada">Canada</option>
+                                <option value="Other">Other / International</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="formMessage">Briefly describe your requirements <span class="required">*</span></label>
+                            <textarea id="formMessage" name="message" rows="4" placeholder="Mention property type, city, and required services..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-gold btn-full">Submit Request <i class="fa-solid fa-paper-plane"></i></button>
+                        <div class="form-status-msg" id="formStatusMsg"></div>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Dual Maps Embed -->
+            <div class="maps-container-grid fade-up-init">
+                <div class="map-box">
+                    <h4 class="map-label"><i class="fa-solid fa-location-dot"></i> Ludhiana Office Map</h4>
+                    <div class="iframe-wrapper">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3423.8344682052445!2d75.83478957630282!3d30.905259974512966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a8370bd9d4be7%3A0xe5a14d547f2db8c1!2sFeroze%20Gandhi%20Market%20Rd%2C%20Feroz%20Gandhi%20Market%2C%20Jila%20Kacheri%20Area%2C%20Model%20Town%2C%20Ludhiana%2C%20Punjab%20141001!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="map-box">
+                    <h4 class="map-label"><i class="fa-solid fa-location-dot"></i> Brampton Office Map</h4>
+                    <div class="iframe-wrapper">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.053818165516!2d-79.71887372382046!3d43.709405671099684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3f2df7907cd3%3A0x8e833446a80df30b!2s2720%20North%20Park%20Dr%2C%20Brampton%2C%20ON%20L6S%200E9%2C%20Canada!5e0!3m2!1sen!2sca!4v1700000000000!5m2!1sen!2sca" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-charcoal text-white">
+        <div class="container footer-container-grid">
+            <div class="footer-col brand-col">
+                <a href="#home" class="footer-logo">
+                    <img src="assets/ica_logo_cropped.jpg" alt="ICA Logo" class="logo-img-small">
+                    <div class="logo-text">
+                        <span class="brand-title text-white">ICA</span>
+                        <span class="brand-subtitle text-gold">Asset Management</span>
+                    </div>
+                </a>
+                <p class="footer-tagline">"Your Property Back Home Deserves Expert Care"</p>
+                <p class="footer-about-short">Trusted property audits, evaluations, legal resolution, and tenant placement for overseas NRI property owners.</p>
+            </div>
+
+            <div class="footer-col links-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#team">Our Experts</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col contact-social-col">
+                <h4>Connect With Us</h4>
+                <p class="small-address-footer">S.C.O 29 Firozgandhi Market, Ludhiana | +91-161-4628450</p>
+                <p class="small-address-footer">2720 North Park Dr, Brampton, ON L6S 0E9 | +1 416-418-9785</p>
+                
+                <div class="social-links-row">
+                    <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://wa.me/919814023713" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-flex">
+                <p class="copyright-text">&copy; 2026 ICA Asset Management. All rights reserved.</p>
+                <p class="seo-keywords-line">
+                    NRI Property Management | NRI Real Estate Solutions | Punjab Property Management | Brampton Real Estate | NRI Services
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Widget -->
+    <a href="https://wa.me/919814023713" class="whatsapp-floating-widget" target="_blank" aria-label="Chat with ICA on WhatsApp">
+        <span class="whatsapp-tooltip">Chat with us</span>
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- JavaScript Script -->
+    <script src="script.js"></script>
+</body>
+</html>
