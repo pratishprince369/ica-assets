@@ -2717,7 +2717,6 @@ a {
     width: 450px;
     height: 450px;
     z-index: 1;
-    animation: spin 30s infinite linear;
 }
 
 .lead-bio-subtitle {
