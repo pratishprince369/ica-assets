@@ -238,7 +238,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // 10. Form Submission Mocking
+    // 10. Real Lead Form Submission (FormSubmit.co to icaasset@gmail.com)
     const consultationForm = document.getElementById('consultationForm');
     const formStatusMsg = document.getElementById('formStatusMsg');
 
@@ -260,13 +260,39 @@ document.addEventListener('DOMContentLoaded', () => {
 
             formStatusMsg.className = 'form-status-msg';
             formStatusMsg.style.color = 'var(--primary-gold)';
-            formStatusMsg.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Registering consultation details...';
+            formStatusMsg.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Submitting your inquiry...';
 
-            setTimeout(() => {
-                formStatusMsg.className = 'form-status-msg success';
-                formStatusMsg.innerHTML = '<i class="fa-solid fa-circle-check"></i> Registration complete! Our transnational property coordinator will connect with you via phone/WhatsApp within 24 hours.';
-                consultationForm.reset();
-            }, 1500);
+            // Submit lead to FormSubmit AJAX API
+            fetch("https://formsubmit.co/ajax/icaasset@gmail.com", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    "Accept": "application/json"
+                },
+                body: JSON.stringify({
+                    Name: name,
+                    Email: email,
+                    Phone: phone,
+                    Location: location,
+                    Requirements: message,
+                    _subject: "New Property Lead from ICA Asset Management"
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success === "true" || data.success === true) {
+                    formStatusMsg.className = 'form-status-msg success';
+                    formStatusMsg.innerHTML = '<i class="fa-solid fa-circle-check"></i> Inquiry submitted successfully! Our coordinator will connect with you via phone/WhatsApp shortly.';
+                    consultationForm.reset();
+                } else {
+                    formStatusMsg.className = 'form-status-msg error';
+                    formStatusMsg.textContent = 'Submission failed. Please try again or email us directly.';
+                }
+            })
+            .catch(error => {
+                formStatusMsg.className = 'form-status-msg error';
+                formStatusMsg.textContent = 'Network error. Please check your connection and try again.';
+            });
         });
     }
 
