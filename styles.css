@@ -825,6 +825,10 @@ a {
     z-index: 2;
 }
 
+.img-main img {
+    object-fit: contain;
+}
+
 .img-sub {
     left: 0;
     bottom: 0;
