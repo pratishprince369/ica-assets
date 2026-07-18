@@ -475,6 +475,11 @@ a {
     font-size: 0.85rem;
 }
 
+.nav-cta-btn:hover {
+    background-color: var(--primary-gold) !important;
+    color: #ffffff !important;
+}
+
 .mobile-toggle {
     display: none;
     flex-direction: column;
