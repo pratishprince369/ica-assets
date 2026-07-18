@@ -2514,12 +2514,16 @@ a {
         display: flex;
     }
     
+    .logo-img {
+        height: 60px;
+    }
+
     .nav-menu {
         position: fixed;
-        top: 79px;
+        top: 90px;
         left: -100%;
         width: 100%;
-        height: calc(100vh - 79px);
+        height: calc(100vh - 90px);
         background-color: var(--primary-navy);
         flex-direction: column;
         align-items: center;
@@ -2561,8 +2565,36 @@ a {
     }
     
     .hero-section {
-        height: calc(100vh - 79px);
-        min-height: 500px;
+        height: auto;
+        padding-top: 120px;
+        padding-bottom: 60px;
+    }
+
+    .hero-animated-logo-container {
+        width: 240px;
+        height: 240px;
+        margin: 30px auto;
+    }
+
+    .hero-circle-image-wrapper {
+        width: 220px;
+        height: 220px;
+        padding: 12px;
+    }
+
+    .hero-circle-rotating-border {
+        top: -6px;
+        left: -6px;
+        width: calc(100% + 12px);
+        height: calc(100% + 12px);
+        border-width: 2px;
+    }
+
+    .floating-trust-badge {
+        bottom: 0px;
+        left: -10px;
+        padding: 8px 12px;
+        font-size: 0.7rem;
     }
     
     .hero-title {
